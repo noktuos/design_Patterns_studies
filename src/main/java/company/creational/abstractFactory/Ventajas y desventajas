@@ -1,0 +1,11 @@
+Ventajas
+______________________
+
+    Ocultamos las  clases de implementacion, aisla el codigo de el cliente de las clases concretas
+    Promueve la consistencia de los objetos
+    Este patron se usa cuando el sistema debe ser independiente de como se crean se componen y representan los objetos necesarios
+
+Desventajas
+______________________
+
+    Para crear nuevos productos se deben modificar tanto las fabricas abstractas como concretas

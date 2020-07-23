@@ -1,0 +1,11 @@
+
+VENTAJAS Y DESVENTAJAS DE FACTORY METHOD
+
+Ventajas
+_______________________________________
+    -   si se desea crear un posteriormente un nuevo metodo de pago solo se tiene que crear un nuevo tipo de pago y agregarlo el Payment factory sin que el proceso se altere.
+    -   nos elimina la necesidad de crear clases especificas dentro del modulo de creator, solo manejamos la interfaz payment y podemos agregar cualquiera que queramos.
+DESVENTAJAS
+_______________________________________
+    -   nos obliga a crear muchisimas clases.
+    -   mas codigo escrito.
